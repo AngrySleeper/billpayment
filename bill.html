@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bill example</title>
+  <link rel="stylesheet" href="css/bill.css">
+</head>
+<body>
+  <div class="form">
+    <h1 class="form__header">Оплата счета</h1>
+    <div class="currency">
+      <input type="text" class="form__count" placeholder="Сумма оплаты">
+      <select name="form__currency" class="form__currency" id="">
+        <option value="RUB" class="currency__val" hidden>RUB</option>
+        <option value="RUB" class="currency__val">RUB</option>
+        <option value="USD" class="currency__val">USD</option>
+        <option value="EUR" class="currency__val">EUR</option>
+        <option value="KZT" class="currency__val">KZT</option>
+      </select>
+    </div>
+    <div class="account">
+      <input type="text" class="form__account" placeholder="Номер кошелька или емейл">
+    </div>
+    <p class="hidden__message">Недостаточно средств</p>
+    <button class="form__submit">Оплатить</button>
+  </div>
+  <script src="js/bill.js"></script>
+</body>
+</html>

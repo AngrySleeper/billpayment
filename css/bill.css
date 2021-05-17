@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.form {
+  position: absolute;
+  font-family: 'Open Sans', sans-serif;
+  width: 600px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 0 30px 0;
+  box-shadow: 1px 2px 5px #000;
+}
+
+.currency {
+  margin-top: 50px;
+}
+
+.form__count, .form__account {
+  width: 400px;
+  height: 25px;
+  font-size: 20px;
+  padding-left: 5px;
+  border: none;
+}
+
+.form__count {
+  margin-bottom: 30px;
+  padding-bottom: 5px;
+  outline: none;
+  border-bottom: 2px solid #34495e;
+}
+
+.form__currency {
+  margin-left: -5px;
+  width: 80px;
+  height: 30px;
+  font-size: 15px;
+  padding-bottom: 6px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #34495e;
+}
+
+.form__account {
+  width: 480px;
+  padding-bottom: 5px;
+  outline: none;
+  border-bottom: 2px solid #34495e;
+}
+
+.hidden__message {
+  font-size: 14px;
+  color: red;
+  visibility: hidden;
+}
+
+.form__submit {
+  width: 150px;
+  height: 35px;
+  font-size: 15px;
+  border-radius: 10px;
+  background: #3498db;
+}
+
+.form__submit:hover {
+  background: #1abc9c;
+  transition: 0.5s;
+}
